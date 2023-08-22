@@ -90,7 +90,7 @@ touch .env
 ```yaml
 NEXT_PUBLIC_STRAPI_API_TOKEN=your-api-token
 NEXT_PUBLIC_PAGE_LIMIT=6
-NEXT_STRAPI_API_URL=http://localhost:1337
+NEXT_PUBLIC_STRAPI_API_URL=http://127.0.0.1:1337
 ```
 4. Before starting our Next JS app we need to go inside our Strapi Admin and create a token that we will be using for displaying our **content**.
 
